@@ -1,0 +1,40 @@
+.product-container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+    place-items: center;
+    padding: 20px;
+    margin-inline: auto;
+}
+.product-item {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.product-image {
+    cursor: pointer;
+}
+.product-info {
+    margin-top: 10px;
+}
+.product-info__name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-info__price {
+    font-size: 16px;
+    color: #888;
+}
+.product-buttons {
+    width: 110px;
+    flex: 0 0 110px;
+}
+.product-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
